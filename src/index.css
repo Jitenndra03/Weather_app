@@ -1,0 +1,19 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden; /* Ensure background video doesn't cause scrollbars */
+  position: relative; /* Positioning context for absolute children */
+}
+
+.background-video {
+  position: fixed; /* Use fixed positioning to ensure the video stays in place */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  object-fit: cover; /* Ensure video covers the whole container */
+  z-index: -1; /* Place video behind content */
+}
