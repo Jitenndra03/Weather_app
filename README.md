@@ -26,19 +26,23 @@ To get started with this project, follow these steps:
    git clone https://github.com/jitenndra03/weather_app.git
 Navigate to the project directory:
 
-
+bash
+Copy code
 cd weather-app
 Install the dependencies:
 
-
+bash
+Copy code
 npm install
 Create a .env file in the root directory and add your API key:
 
-
+makefile
+Copy code
 REACT_APP_API_KEY=your_openweathermap_api_key
 Start the development server:
 
-
+bash
+Copy code
 npm start
 Open your browser and go to http://localhost:3000 to see the application in action.
 
@@ -78,4 +82,3 @@ If you want to contribute to this project, please fork the repository and submit
 Acknowledgements
 OpenWeatherMap API for providing weather data.
 React for the framework.
-vbnet
